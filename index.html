@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color buttons</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="button-row">
+        <button class="custom-button red-button" onclick="addColor('Red')">Red</button>
+        <button class="custom-button blue-button" onclick="addColor('Blue')">Blue</button>
+        <button class="custom-button green-button" onclick="addColor('Green')">Green</button>
+        <button class="custom-button yellow-button" onclick="addColor('Yellow')">Yellow</button>
+      </div>
+      
+      <div class="button-row">
+        <button class="custom-button purple-button" onclick="addColor('Purple')">Purple</button>
+        <button class="custom-button pink-button" onclick="addColor('Pink')">Pink</button>
+        <button class="custom-button white-button" onclick="addColor('White')">White</button>
+        <button class="custom-button orange-button" onclick="addColor('Orange')">Orange</button>
+      </div>
+
+      <div class="button-row">
+      <button class="custom-button clear-button" onclick="clearList()">Clear All</button>
+      <button class="custom-button back-button" onclick="goBack()">Back</button>
+     </div>
+
+     <div class="button-row">
+        <ol id="color-list" class="color-list"></ol>
+     </div>
+      
+      <script src="script.js"></script>
+</body>
+
+</html>

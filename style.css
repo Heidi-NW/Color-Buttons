@@ -1,0 +1,81 @@
+
+  .custom-button {
+    width: 120px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 10px;
+    cursor: pointer;
+  }
+  
+  .red-button {
+    background-color: red;
+    color: white;
+  }
+  
+  .blue-button {
+    background-color: blue;
+    color: white;
+  }
+  
+  .green-button {
+    background-color: green;
+    color: white;
+  }
+  
+  .yellow-button {
+    background-color: yellow;
+    color: black;
+  }
+  
+  .purple-button {
+    background-color: purple;
+    color: white;
+  }
+  
+  .pink-button {
+    background-color: pink;
+    color: black;
+  }
+  
+  .white-button {
+    background-color: white;
+    color: black;
+  }
+  
+  .orange-button {
+    background-color: orange;
+    color: white;
+  }
+  
+  .button-row {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .clear-button, .back-button {
+    background-color: gray;
+    padding:0;
+    color: white;
+    width: 200px;
+    height: 40px;
+    border-radius: 5px;
+    font-size:35px;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+  }
+
+  .color-list {
+    font-size: 30px;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .custom-button {
+      font-size: 12px;
+      padding: 8px 16px;
+    }
+  }
