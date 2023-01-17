@@ -1,4 +1,4 @@
-## Color-Buttons
+## Color-Buttons (5 colors)
 https://heidi-nw.github.io/Color-Buttons/
 
 This app will help you record the color sequences
